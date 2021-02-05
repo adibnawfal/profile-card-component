@@ -10,6 +10,7 @@
 body {
   background-color: hsl(185, 75%, 39%);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -115,10 +116,16 @@ body {
 }
 
 .attribution {
-  font-size: 11px;
+  position: absolute;
+  font-size: 12px;
+  font-weight: 400;
   text-align: center;
+  color: #fff;
+  bottom: 30px;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
 }
