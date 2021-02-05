@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Kumbh+Sans:300,400,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  color: hsl(229, 23%, 23%);
+}
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bg .top {
+  position: absolute;
+  width: 1000px;
+  height: width;
+  top: -500px;
+  left: -390px;
+}
+
+.bg .bottom {
+  position: absolute;
+  width: 900px;
+  height: width;
+  bottom: -540px;
+  right: -240px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 330px;
+  background-color: #fff;
+  border-radius: 15px;
+  text-align: center;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.body {
+  height: 60%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.header img,
+.body .circle img {
+  width: 100%;
+}
+
+.body .circle {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  bottom: 85px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  overflow: hidden;
+}
+
+.body .name-place {
+  position: relative;
+  top: 65px;
+}
+
+.body h1,
+.footer h1 {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.body span {
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+  margin-left: 5px;
+}
+
+.body p {
+  font-size: 12px;
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding: 20px 10px;
+  border-top: 1px solid hsl(0, 0%, 90%);
+}
+
+.footer p {
+  font-size: 10px;
+  color: hsl(0, 0%, 59%);
+  margin-top: 5px;
+  letter-spacing: 1px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
